@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */	
+*{box-sizing: border-box}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 16px; color: #666666; margin: 0
+}
+.banner{
+	width: 100%; min-height: 300px
+}
+.img-100{
+	width:100%; height: auto
+}
+.container{
+	width: 80%; margin: 0 auto
+}
+.header{
+	width: 100%; height: 60px; background-color: #0DC2C4
+}
+.logo{
+	float: left
+}
+.menu{
+	float: right; padding-top: 20px
+}
+.menu a{
+	padding: 10px 20px; text-decoration: none; text-transform: uppercase; color: white
+}
+.menu a:hover{
+	color: darkred
+}
+.main{
+	width: 100%; min-height: 500px; clear: both
+}
+.w-25{
+	width: 25%;padding: 15px; float: left
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid #0000FF; border-radius: 10px; text-align: center; padding: 10px; margin-top: 20px; margin-bottom: 15px
+}
+.bo-goc{
+	border-radius: 10px
+}
+.text-xanh{
+	color: #0084FF
+}
+.text-do{
+	color: red
+}
+footer{
+	width: 100%; height: 60px; background-color: #0DC2C4; color:white; line-height: 60px; text-align: center;font-size: 18px; clear: both
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px
+}
+.btn{
+	padding: 10px 20px; background-color: aqua; color: aliceblue; border: none; border-radius: 20px; cursor: pointer
+}
+.btn:hover{
+	background-color: #339195
+}
+.btn-do{
+	padding: 10px 20px; background-color:#F01B1E; color: aliceblue; border: none; border-radius: 20px; cursor: pointer; margin-left: 15px
+}
+.btn-do:hover{
+	background-color:#FF0004
+}
